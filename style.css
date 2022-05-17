@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+}
+
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 6px;
+} */
+
+h1 {
+  font-size: 30px;
+
+}
+p {
+  font-size: 24px;
+}
+
+.box {
+  width: 440px;
+  height: 350px;
+  color: white;
+  position: fixed;
+  margin-left: 5%;
+  margin-top: 15%;
+  padding: 10px;
+  padding-top: 20px;
+  background: rgba(1, 133, 203, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(55, 201, 242, 0.1);
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0 );
+}
+
+.logo-text {
+  position: fixed;
+  margin-left: 40.5%;
+  margin-top: 3%;
+}
+
+.pr-name {
+  color: white;
+  font-size: 50px;
+}
+
+.version {
+  position: fixed;
+  width: 55px;
+  padding-left: 0.25%;
+  height: 30px;
+  top: 0;
+  right: 50%;
+  left: 50%;
+  color: white;
+  font-size:x-large;
+  background-color: blue;
+}
+.center {
+  text-align: center;
+}
+
+.planets {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  bottom: 4%;
+  left: 30%;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  font-size: 30px;
+}
+ul.list li {
+  display: inline;
+  padding: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* BUTTON - START  */
+
+.read-more {
+  color: white;
+  font-size: large;
+  width: 150px;
+  height: 50px;
+  margin-top: 70%;
+  margin-left: 65%;
+  background: rgba(1, 133, 203, 0.3);
+  box-shadow: 0 24px 96px 0 rgba(55, 201, 242, 0.37);
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0 );
+}
+button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 27px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* BUTTON - END */
+
+
+/* *, *:before, *:after {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background:black;;
+}
+
+.pop-up-button {
+  background: rgba(69,95,174,0.97);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+.pop-up {
+  width: 50%;
+  margin: 100px auto;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(.12, .13, .14, .15);
+  
+  .pop-up-text {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+.show {
+  
+  .pop-up {
+    opacity: 1;
+  }
+  
+  .pop-up-text {
+    
+    a {
+      pointer-events: auto;
+    }
+  }
+}
+
+@media screen and(max-width: 650px) {
+  .pop-up {
+    width: 80%;
+    
+    .pop-up-text {
+      font-size: .8em;
+    }
+  }
+  
+  .pop-up-button {
+    font-size: .8em;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+  }
+} */
